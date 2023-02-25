@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Location = ({ response }) => {
   return (
-    <section className="relative snap-start w-full h-full">
+    <section id="location" className="relative snap-start w-full h-full">
       <img
         className="absolute -z-30 object-cover blur-sm brightness-75 h-full w-full"
         src={response.locimg.fields.file.url}
